@@ -1,0 +1,118 @@
+.Container {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Container .Logo {
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Container .Logo img {
+  height: 80%;
+}
+
+.Container .Menu {
+  width: 85%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0px 50px;
+}
+
+.Container .Menu .Courses {
+  color: white;
+  font-weight: 600;
+  margin-right: 40px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.Container .Menu .Courses ion-icon {
+  font-size: 10px;
+  margin-left: 2px;
+}
+
+.Container .Menu .Courses:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.Container .Menu .AboutLink {
+  color: white;
+  font-weight: 600;
+  margin-right: 40px;
+  text-decoration: none;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.Container .Menu .AboutLink:hover {
+  cursor: pointer;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.Container .Menu .ButtonMentor {
+  border: solid 1px white;
+  background-color: transparent;
+  padding: 8px 32px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin-right: 30px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.Container .Menu .ButtonMentor:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #3F0097;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+.Container .Menu .ButtonCallback {
+  border: none;
+  background-color: #3F0097;
+  padding: 10px 32px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+  font-size: 0.8rem;
+  margin-right: 10px;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.Container .Menu .ButtonCallback:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #3F0097;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+/*# sourceMappingURL=Navbar.module.css.map */

@@ -1,0 +1,105 @@
+.Container {
+  width: 100%;
+  height: 100vh;
+  background-color: #3F0097;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Container .Triangle {
+  position: absolute;
+  height: 90%;
+  right: 0px;
+  top: 0px;
+  z-index: 0;
+}
+
+.Container .Left {
+  z-index: 10;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  padding-left: 70px;
+}
+
+.Container .Left .Highlite {
+  color: #f9cc9a;
+}
+
+.Container .Left .Top {
+  font-weight: 800;
+  font-size: 4rem;
+}
+
+.Container .Left .Benefits {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.Container .Left .Courses1 {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.Container .Left .Courses2 {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.Container .Right {
+  width: 40%;
+  height: 100%;
+  display: 400;
+  z-index: 50;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+}
+
+.Container .Right .Animation {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  background: url("../../assets/macbook_sprite_400px.png");
+  -webkit-animation: animate 2s steps(8) infinite;
+          animation: animate 2s steps(8) infinite;
+}
+
+@-webkit-keyframes animate {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -3200px;
+  }
+}
+
+@keyframes animate {
+  from {
+    background-position: 0px;
+  }
+  to {
+    background-position: -3200px;
+  }
+}
+/*# sourceMappingURL=Landing.module.css.map */
